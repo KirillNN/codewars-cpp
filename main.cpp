@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
-//#include "find_the_integral.h"  
-//#include "exclamation_marks_series_11.h"  
+#include "find_the_integral.h"  
+#include "exclamation_marks_series_11.h"  
 #include "multi_table_for_num.h"  
 using namespace std;
 

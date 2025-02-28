@@ -11,7 +11,8 @@ string cw_replace(const string& s)
 
     for (size_t i = 0; i < s.size(); ++i) {  // str.length() тоже можно
         //basic_string <char>::size_type indexCh = vowels.find(s[i]);
-        int indexCh = vowels.find(s[i]);
+        size_t indexCh = vowels.find(s[i]);
+        //int indexCh = vowels.find(s[i]);
         //indexCh = vowels.find(s[i]);
         (indexCh != string::npos) && (result[i] = '!');
         //if (indexCh != string::npos)
