@@ -3,6 +3,7 @@
 #include "find_the_integral.h"  
 #include "exclamation_marks_series_11.h"  
 #include "multi_table_for_num.h"  
+#include "return_negative.h"
 using namespace std;
 
 
@@ -19,7 +20,8 @@ int main()
 
     //cout << d;
 
-    string result = multi_table(5);
+    // string result = multi_table(5);
+    int result = makeNegative(3);
 
 
     cout << result << endl;
