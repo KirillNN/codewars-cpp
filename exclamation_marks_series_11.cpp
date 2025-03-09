@@ -9,7 +9,7 @@ string cw_replace(const string& s)
     string vowels = "aeiouAEIOU";
     string result = s;
 
-    for (size_t i = 0; i < s.size(); ++i) {  // str.length() тоже можно
+    for (size_t i = 0; i < s.size(); ++i) {  // str.length() пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         //basic_string <char>::size_type indexCh = vowels.find(s[i]);
         size_t indexCh = vowels.find(s[i]);
         //int indexCh = vowels.find(s[i]);
@@ -19,7 +19,7 @@ string cw_replace(const string& s)
             //std::cout << indexCh1a << ' ';
             //result[i] = '!';
         
-        //std::string result = (a > 50) ? "Большое" : "Маленькое";
+        //std::string result = (a > 50) ? "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" : "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ";
         //std::cout << result << std::endl;
 
     }
