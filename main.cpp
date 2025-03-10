@@ -1,38 +1,37 @@
+#include "common.h"  
 #include <iostream>
-#include <string>
-#include "find_the_integral.h"  
-#include "exclamation_marks_series_11.h"  
-#include "multi_table_for_num.h"  
-#include "return_negative.h"
-#include "sum_of_positive.h"
-#include "string_repeat.h"
-using namespace std;
-
 
 int main()
 {
-    //cout << "Hello, World!" << endl; 
+    std::string str_result = even_or_odd(5);
+    std::cout << str_result << std::endl;
+
+    str_result = cw_replace("Hi!");
+    std::cout << str_result << std::endl;
     
-    //string x = integrate(3, 2);
-    //string result = cw_replace("Hi!");
+    str_result = integrate(3, 2);
+    std::cout << str_result << std::endl;
+
+    str_result = repeat_str(5, "#");
+    std::cout << str_result << std::endl;
+
+    str_result = multi_table(10);
+    std::cout << str_result << std::endl;
+
+    int int_result = positive_sum(std::vector <int> {1, 2, 3, 4, 5});
+    std::cout << int_result << std::endl;
+   
+	int_result = makeNegative(42);
+    std::cout << int_result << std::endl;
+
+	int_result = multiply(3, 4);
+    std::cout << int_result << std::endl;
+
     //int a = 0;
     //int b = 0;
     //cin >> a >> b;
     //double d = (double)a / b;
 
-    //cout << d;
-
-    // string result = multi_table(5);
-    // int result = makeNegative(3);
-    //int result = positive_sum(std::vector <int> {1,2,3,4,5});
-    //cout << result << endl;
-
-    //result = positive_sum(std::vector <int> {1,2,3,4,5,6});
-    //cout << result << endl;
-
-
-	string result = repeat_str(2, "ha ");
-    cout << result << endl;
 
     return 0;
 }

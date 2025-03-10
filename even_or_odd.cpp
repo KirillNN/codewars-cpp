@@ -5,8 +5,8 @@
 //  Created by kirill on 26.02.2025.
 //
 
-#include "even_or_odd.h"
-#include <string>
+#include "common.h"
+
 
 std::string even_or_odd(int number)
 {

@@ -1,7 +1,11 @@
-#include "return_negative.h"
+//
+//  return_negative.cpp
+//  codewars
+//  https://www.codewars.com/kata/55685cd7ad70877c23000102/train/cpp
+//  Created by kirill on 02.03.2025.
+//
 
-// #include <string>
-// using namespace std;
+#include "common.h"
 
 int makeNegative(int num)
 {
