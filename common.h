@@ -20,6 +20,8 @@ int multiply(int a, int b);
 
 int positive_sum(const std::vector<int> arr);
 
+double calcAverage(const std::vector<int>& values);
+
 std::vector<int> maps(const std::vector<int>& values);
 
 #endif // COMMON_H 
