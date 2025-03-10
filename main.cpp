@@ -5,6 +5,7 @@
 #include "multi_table_for_num.h"  
 #include "return_negative.h"
 #include "sum_of_positive.h"
+#include "string_repeat.h"
 using namespace std;
 
 
@@ -23,12 +24,15 @@ int main()
 
     // string result = multi_table(5);
     // int result = makeNegative(3);
-    int result = positive_sum(std::vector <int> {1,2,3,4,5});
-    cout << result << endl;
+    //int result = positive_sum(std::vector <int> {1,2,3,4,5});
+    //cout << result << endl;
 
-    result = positive_sum(std::vector <int> {1,2,3,4,5,6});
-    cout << result << endl;
+    //result = positive_sum(std::vector <int> {1,2,3,4,5,6});
+    //cout << result << endl;
 
+
+	string result = repeat_str(2, "ha ");
+    cout << result << endl;
 
     return 0;
 }
