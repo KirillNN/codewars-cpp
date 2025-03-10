@@ -14,6 +14,8 @@ std::string multi_table(int number);
 
 std::string repeat_str(size_t repeat, const std::string& str);
 
+std::string reverseString (std::string str );
+
 int makeNegative(int num);
 
 int multiply(int a, int b); 

@@ -18,6 +18,9 @@ int main()
     str_result = multi_table(10);
     std::cout << str_result << std::endl;
 
+    str_result = reverseString("hello");
+    std::cout << str_result << std::endl;
+
     int int_result = positive_sum(std::vector <int> {1, 2, 3, 4, 5});
     std::cout << int_result << std::endl;
    
