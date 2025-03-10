@@ -8,34 +8,20 @@
 #include "common.h"
 
 double calcAverage(const std::vector<int>& values) {
-    return 2.5;
+    int size = values.size();
+    double summ = 0;
+    for (const int &num : values){
+        summ += num;
+    }
+    return summ / size;
 }
-
-
 
 /*
+#include <vector>
+#include <numeric>
+using namespace std; 
 
-std::vector<int> maps(const std::vector<int>& values) {
-    std::vector<int> result;
-    result.reserve(values.size());
-    for (const int& num : values) {
-        // num - ссылка, избегаем копирования
-        result.push_back(num * 2);
-    }
-
-    return result;
+double calcAverage(const vector<int>& values){
+  return accumulate(values.begin(),values.end(), 0.0) / values.size();
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 */
