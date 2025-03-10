@@ -27,6 +27,12 @@ int main()
 	int_result = multiply(3, 4);
     std::cout << int_result << std::endl;
 
+    std::vector<int> vector_result = maps(std::vector <int> {1, 2, 3});
+    for (int num : vector_result) {
+        std::cout << num << " ";
+    }
+	std::cout << std::endl;
+
     //int a = 0;
     //int b = 0;
     //cin >> a >> b;
