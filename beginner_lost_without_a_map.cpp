@@ -10,7 +10,8 @@
 std::vector<int> maps(const std::vector<int>& values) {
     std::vector<int> result;
     result.reserve(values.size());
-    for (int num : values) {
+    for (const int &num : values) {
+        // num - ссылка, избегаем копирования
         result.push_back(num * 2);
     }
 
