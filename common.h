@@ -28,4 +28,6 @@ std::vector<int> maps(const std::vector<int>& values);
 
 std::string people_with_age_drink(int age);
 
+int litres(double time);
+
 #endif // COMMON_H 
