@@ -44,6 +44,11 @@ int main()
 
     int_result = litres(0.82);
     std::cout << int_result << std::endl;
+
+    str_result = makeUpperCase("hello");
+    std::cout << str_result << std::endl;
+
+
     
     //int a = 0;
     //int b = 0;

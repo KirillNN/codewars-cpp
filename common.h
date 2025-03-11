@@ -30,4 +30,6 @@ std::string people_with_age_drink(int age);
 
 int litres(double time);
 
+std::string makeUpperCase(const std::string& input_str);
+
 #endif // COMMON_H 
