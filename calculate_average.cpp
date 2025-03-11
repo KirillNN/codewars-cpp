@@ -8,7 +8,7 @@
 #include "common.h"
 
 double calcAverage(const std::vector<int>& values) {
-    int size = values.size();
+    size_t size = values.size();
     double summ = 0;
     for (const int &num : values){
         summ += num;

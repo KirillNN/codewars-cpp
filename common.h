@@ -26,4 +26,6 @@ double calcAverage(const std::vector<int>& values);
 
 std::vector<int> maps(const std::vector<int>& values);
 
+std::string people_with_age_drink(int age);
+
 #endif // COMMON_H 

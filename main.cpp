@@ -18,9 +18,6 @@ int main()
     str_result = multi_table(10);
     std::cout << str_result << std::endl;
 
-    str_result = reverseString("hello");
-    std::cout << str_result << std::endl;
-
     int int_result = positive_sum(std::vector <int> {1, 2, 3, 4, 5});
     std::cout << int_result << std::endl;
    
@@ -31,14 +28,20 @@ int main()
     std::cout << int_result << std::endl;
 
     std::vector<int> vector_result = maps(std::vector <int> {1, 2, 3});
-    for (int num : vector_result) {
+    for (const int &num : vector_result) {
         std::cout << num << " ";
     }
 	std::cout << std::endl;
 
-	double double_result = calcAverage(std::vector <int> {4, 2, 1});
+    double double_result = calcAverage(std::vector <int> {4, 2, 1});
     std::cout << double_result << std::endl;
 
+    str_result = reverseString("hello");
+    std::cout << str_result << std::endl;
+
+    str_result = people_with_age_drink(14);
+    std::cout << str_result << std::endl;
+    
     //int a = 0;
     //int b = 0;
     //cin >> a >> b;
